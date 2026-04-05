@@ -104,4 +104,4 @@ public class InsertionSort {
 // Ambil satu angka (key)
 // Bandingkan dengan yang di kiri
 // Elemen yang lebih besar geser ke kanan
-// Masukkan di tempat yang cocok
+// Sisipkan di tempat yang benar
