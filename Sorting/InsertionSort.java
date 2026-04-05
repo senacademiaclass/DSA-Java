@@ -96,6 +96,12 @@ public class InsertionSort {
 //data[1+1] = key -> data[2] = 3
 //1 2 3 4 5 6
 
-//ada variabel key sebagai key dengan elemen sebelumnya
+//ada variabel key sebagai pembanding dengan elemen sebelumnya
 //ada proses pergeseran elemen (bukan swap)
-//elemen yang dibandingkan kiri
+//elemen yang dibandingkan ke kiri
+
+// Bayangkan seperti menyusun kartu:
+// Ambil satu angka (key)
+// Bandingkan dengan yang di kiri
+// Elemen yang lebih besar geser ke kanan
+// Masukkan di tempat yang cocok
