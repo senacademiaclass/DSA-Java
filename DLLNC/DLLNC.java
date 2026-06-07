@@ -145,14 +145,14 @@ public class DLLNC {
     public void insertAt(int posisi, int databaru) {
         //posisi < 1
         if (posisi < 1) {
-            System.out.println("insertAt: posisi >= 1");
+            System.out.println("insertAt: posisi harus >= 1 !!");
             return;
         }
 
         //posisi = 1, akan sama dengan insertDepan
         if (posisi == 1) {
-            insertDepan(databaru);
             System.out.println("insertAt: posisi 1 (=insertDepan)");
+            insertDepan(databaru);
             return;
         }
 
