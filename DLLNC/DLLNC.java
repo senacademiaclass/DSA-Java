@@ -159,6 +159,7 @@ public class DLLNC {
         //posisi melebihi jumlah node
         if (posisi > size() + 1) {
             System.out.println("insertAt: posisi = " + posisi + " melebihi panjang list (" + size() + ")");
+            return;
         }
 
         //penyisipan node baru di posisi tengah / belakang
